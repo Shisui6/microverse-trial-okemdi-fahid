@@ -1,14 +1,37 @@
-#nav-bar {
-    position: fixed;
-
-}
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
     body {
       background-color: lightgreen;
     }
-  }
+} */
 
 #header {
-    display: flex;
-    
+    width: 100%;
+    position: fixed;
+    height: 100px;
+    z-index: 1;
+    top: 0px;
+}
+
+#header-img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+#nav-bar li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#nav-bar ul {
+    position: relative;
+    left: 900px;
+    bottom: 100px;
+}
+
+section {
+    margin-top: 200px;
 }
